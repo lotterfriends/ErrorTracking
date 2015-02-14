@@ -1,7 +1,7 @@
 {
   "name": "ErrorTracking",
   "description": "Track JavaScript errors",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "André Tarnowsky",
     "email": "andre@tarnowsky.de"
