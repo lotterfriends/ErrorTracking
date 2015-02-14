@@ -9,11 +9,12 @@
 	// Copyright (C) 2015
 	//
 
-	function ErrorTracking() {
+	function ErrorTracking(options) {
+		options = (typeof options === 'undefined') ? {} : options;
 		// print to console if the error cause
-		this.debug = false;
+		this.debug = (typeof options.debug !== 'undefined') ? options.debug : false;
 		// throw the error
-		this.throwErrors = true;
+		this.throwErrors = (typeof options.throwErrors !== 'undefined') ? options.throwErrors : true;
 		// error array
 		this.errorStack = [];
 		// window functions we want to track
@@ -32,7 +33,7 @@
 		// this.attacheErrorEvent();
 
 		// push errors to google analytics
-		this.pushToAnalytics = false;
+	 	this.pushToAnalytics = (typeof options.pushToAnalytics !== 'undefined') ? options.pushToAnalytics : false;
 	}
 
 	/**
@@ -159,6 +160,6 @@
 		this.errorStack = [];
 	};
 
-	window.errorTracking = new ErrorTracking();
+	window.ErrorTracking = ErrorTracking;
 
 }).call();
