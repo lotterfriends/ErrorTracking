@@ -7,12 +7,20 @@ Google Analytics.
 ## Options
 bold=default
 
-| name  | value | decription |
-------------- | -------------
-| debug | true/**false** | print the error to console if the error cause |
-| throwErrors | **true**/false | throw the error |
-| pushToAnalytics | true/**false** | push errors to google analytics |
-
+<table>
+  <tr>
+    <th>name</th><th>value</th><th>description</th></tr>
+  </tr>
+  <tr>
+	<td>debug</td><td>true/<b>false</b></td><td>print the error to console if the error cause</td>
+</tr>
+<tr>
+	<td>throwErrors</td><td><b>true</b>/false</td><td>print the error to console if the error cause</td>
+</tr>
+<tr>
+	<td>pushToAnalytics</td><td>true/<b>false</b></td><td>ush errors to google analytics</td>
+</tr>
+</table>
 
 
 ## Access
