@@ -4,6 +4,23 @@ Wraps JavaScript Errors with an try/catch so you got
 a stacktrace. Also you can send your errors to 
 Google Analytics.
 
+## start
+```
+> npm install
+> grunt
+```
+
+## new release
+```
+> grunt release
+```
+
+## develop
+```
+> grunt watch
+```
+
+
 ## Options
 bold=default
 
