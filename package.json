@@ -1,0 +1,24 @@
+{
+  "name": "ErrorTracking",
+  "description": "Track JavaScript errors",
+  "version": "0.0.2",
+  "author": {
+    "name": "André Tarnowsky",
+    "email": "andre@tarnowsky.de"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lotterfriends/ErrorTracking"
+  },
+  "bugs": {
+    "url": "https://github.com/lotterfriends/ErrorTracking/issues"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bumpup": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.2",
+    "grunt-contrib-jshint": "0.11.0",
+    "grunt-contrib-watch": "~0.5.1"
+  },
+  "license": "MIT"
+}
