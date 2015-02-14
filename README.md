@@ -39,14 +39,23 @@ bold=default
 </tr>
 </table>
 
+## Example usage
+```html
+<script type="text/javascript" src="http://cdn.rawgit.com/lotterfriends/ErrorTracking/master/build/ErrorTracking.min.js"></script>
+<script type="text/javascript">
+var errorTracking = new ErrorTracking({
+  pushToAnalytics: true
+});	
+</script>
+```
 
 ## Access
 
 ```javascript
-window.errorTracking // the object
-window.errorTracking.errorStack // list of all occured errors
-window.errorTracking.printErrors() // print all errors from the errorStack list to console
-window.errorTracking.printError(error) // print one error to console
-window.errorTracking.clearErrorStack() // clear the list of occured errors
-window.errorTracking.functionsToTrack // list of all functions we wrap with try/catch
+errorTracking // the object var
+errorTracking.errorStack // list of all occured errors
+errorTracking.printErrors() // print all errors from the errorStack list to console
+errorTracking.printError(error) // print one error to console
+errorTracking.clearErrorStack() // clear the list of occured errors
+errorTracking.functionsToTrack // list of all functions we wrap with try/catch
 ```
