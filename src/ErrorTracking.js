@@ -28,10 +28,9 @@
       'createBlobURL', 'dispatchEvent', 'enableExternalCapture', 'escape', 'find',
       'focus', 'forward', 'getSelection', 'moveBy', 'moveTo', 'mozRequestAnimationFrame',
       'requestAnimationFrame', 'webkitRequestAnimationFrame', 'open', 'postMessage',
-      'prompt', 'releaseEvents', 'removeEventListener', 'resizeBy', 'resizeTo',
-      'revokeBlobURL', 'routeEvent', 'scroll', 'scrollBy', 'scrollByLines',
-      'scrollByPages', 'scrollTo', 'setInterval', 'setTimeout', 'sizeToContent',
-      'stop', 'unescape'];
+      'prompt', 'releaseEvents', 'removeEventListener', 'resizeBy', 'resizeTo', 'revokeBlobURL',
+      'routeEvent', 'scroll', 'scrollBy', 'scrollByLines', 'scrollByPages', 'scrollTo',
+      'setInterval', 'setTimeout', 'sizeToContent', 'stop', 'unescape'];
     this.wrapFunctions();
 
     // browsers not ready yet :(
