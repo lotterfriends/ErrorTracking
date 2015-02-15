@@ -160,6 +160,9 @@
     console.groupEnd(error.message);
   };
 
+  /**
+   * clear error stack
+   */
   ErrorTracking.prototype.clearErrorStack = function() {
     this.errorStack = [];
   };
