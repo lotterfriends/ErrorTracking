@@ -24,8 +24,8 @@ module.exports = function(grunt) {
 		},
 		jshint: {
 			all: [
-    		'src/<%= pkg.name %>.js'
-  		]	
+			'src/<%= pkg.name %>.js'
+			]	
 		}
 	});
 
